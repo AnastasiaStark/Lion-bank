@@ -1,0 +1,42 @@
+.paginator {
+    text-align: center;
+    margin-bottom: 152px;
+
+}
+
+.paginator__display,
+.paginator__list {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 24px;
+}
+
+.paginator__list {
+    letter-spacing: -0.9px;
+}
+
+.paginator__display {
+    margin-right: -2px;
+}
+
+.paginator__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 32px;
+}
+
+.paginator__item_active .paginator__link {
+    background-color: #353439;
+}
+
+.paginator__link_color_white {
+    color: #fff;
+}

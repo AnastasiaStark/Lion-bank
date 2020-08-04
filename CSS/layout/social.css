@@ -1,0 +1,14 @@
+.social {
+    margin-right: 74px;
+}
+
+.social__icon {
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.social__list {
+    display: inline-block;
+    vertical-align: middle;
+}

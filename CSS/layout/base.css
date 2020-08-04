@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    background-color: #29282D;
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-weight: normal;
+}
+
+ul {
+    padding: 0px;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-width: 1940px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+
+}
+
+.container {
+    width: 1130px;
+    margin: 0px auto;
+}
+
+.main_page_wrapper {
+    background: url('../../lion-header.jpg') center top no-repeat, url('../../bottom-pic.png') right bottom no-repeat;
+}

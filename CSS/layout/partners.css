@@ -1,0 +1,24 @@
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.partners__title {
+    font-size: 48px;
+    margin-bottom: 88px;
+    font-weight: bold;
+}
+
+.partners__item {
+    flex-basis: 25%;
+    margin-bottom: 76px;
+}
+
+.partners__item:nth-child(4n) {
+    text-align: right;
+}
+
+.partners__item:nth-child(4n+1) {
+    text-align: left;
+}
