@@ -11,4 +11,10 @@
 .social__list {
     display: inline-block;
     vertical-align: middle;
+    margin-left: 10px;
+}
+
+.social__list:first-child {
+
+margin-left: 0;
 }

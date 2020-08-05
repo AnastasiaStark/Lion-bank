@@ -1,7 +1,13 @@
+
+.main_container_partners {
+    background: #F4F5F5
+}
+
 .partners__list {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    
 }
 
 .partners__title {

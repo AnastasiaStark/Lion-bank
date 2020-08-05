@@ -2,13 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 84px;
 }
 
 .service__img {
     width: 30%;
     margin-right: 7%;
-    padding-bottom: 145px;
-
 }
 
 .service-item {
@@ -34,7 +33,7 @@
 .sevice__link {
     display: flex;
     text-decoration: none;
-    padding: 58px 43px;
+    padding: 98px 0 22px 0px;
 }
 
 .sevice__link:hover {
