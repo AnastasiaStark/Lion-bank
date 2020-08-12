@@ -23,3 +23,11 @@
 .button_color_black:hover {
     background-color: #d3a556;
 }
+
+.button_color_gray {
+background-color: #8E8E8E;
+}
+
+.button_color_gray:hover {
+    background-color: black;
+}

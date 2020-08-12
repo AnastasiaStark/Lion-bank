@@ -22,3 +22,11 @@
     content: "/";
     color: #999;
 }
+
+.main__link {
+    color:#9A9A9A;
+}
+
+.breadcrumbs__link-font-bold {
+    font-weight: bold;
+}
