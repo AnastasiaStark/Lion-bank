@@ -1,5 +1,6 @@
 .contacts {
     font-style: normal;
+
 }
 
 .contacts__number {
@@ -14,8 +15,35 @@
     text-decoration: none;
     color: #dfb56d;
     margin-right: 4px;
+    position: relative;
+    text-align: right;
+}
+
+.contacts__timetible:hover .drop-down-list {
+    display: block;
+    cursor: pointer;
 }
 
 .contacts__text {
     color: #99999b;
+}
+
+.drop-down-list {
+    position: absolute;
+    display: none;
+    background: #EDEDED;
+    font-size: 13px;
+    color: black;
+    width: 160px;
+    height: 80px;
+    border-radius:7px ;
+}
+
+.drop-down-list__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drop-down-list__list_font_bold {
+    font-weight: bold;
 }
