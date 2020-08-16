@@ -17,6 +17,7 @@
     margin-right: 4px;
     position: relative;
     text-align: right;
+
 }
 
 .contacts__timetible:hover .drop-down-list {
@@ -35,14 +36,25 @@
     font-size: 13px;
     color: black;
     width: 160px;
-    height: 80px;
-    border-radius:7px ;
+    height: 60px;
+    border-radius:7px;
+    margin-top: 10px;
+    padding: 15px;
+}
+.drop-down-list:before {
+    content: ''; 
+    position: absolute;
+    right:24px; top: -20px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #EDEDED;
 }
 
 .drop-down-list__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+  
 }
 .drop-down-list__list_font_bold {
     font-weight: bold;

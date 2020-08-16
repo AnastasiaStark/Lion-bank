@@ -53,7 +53,7 @@ html {
 
 .wrapper {
     margin: 0 auto;
-    min-width: 1940px;
+    min-width: auto;
     display: flex;
     flex-direction: column;
     min-height: 100%;

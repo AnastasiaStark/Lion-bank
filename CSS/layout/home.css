@@ -12,14 +12,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-    
-
-.center:hover {
     animation: jump 1.3s;
     opacity: 0;
     animation-fill-mode: forwards;
 }
+    
+
 
 
 @keyframes jump {

@@ -44,7 +44,7 @@
     text-decoration: none;
 }
 
-.link-color-blue {
+.comments__user:hover {
     color: #2E77A4;
 }
 
@@ -61,7 +61,6 @@
 .tag {
     width: 141px;
     height: 38px;
-    
     border-radius: 50px;
     font-size: 13px;
     display: flex;
@@ -82,7 +81,3 @@
     color: #202020;
 }
 
-.comments__data {
-    font-size: 14px;
-    font-weight: bold;
-}
